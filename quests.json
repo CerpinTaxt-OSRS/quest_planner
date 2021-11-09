@@ -628,5 +628,95 @@
             ],
             "other": {}
         }
+    },
+    "Shades of Mort'ton": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 20,
+                "herblore": 15
+            },
+            "quests": [
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "The Fremennik Trials": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Horror from the Deep": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 35
+            },
+            "quests": [
+                "Alfred Grimhand's Barcrawl"
+            ],
+            "other": {}
+        }
+    },
+    "Throne of Miscellania": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Heroes' Quest", "Shield of Arrav", "Lost City", "Merlin's Crystal",
+                "Dragon Slayer I", "The Fremennik Trials"
+            ],
+            "other": {}
+        }
+    },
+    "Monkey Madness I": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "The Grand Tree", "Tree Gnome Village"
+            ],
+            "other": {}
+        }
+    },
+    "Haunted Mine": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 35
+            },
+            "quests": [
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Troll Romance": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 28
+            },
+            "quests": [
+                "Troll Stronghold", "Death Plateau"
+            ],
+            "other": {}
+        }
+    },
+    "In Search of the Myreque": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 25
+            },
+            "quests": [
+                "Nature Spirit", "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
     }
 }
