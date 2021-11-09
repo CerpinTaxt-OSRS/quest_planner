@@ -1,0 +1,632 @@
+{
+    "Cook's Assistant": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Demon Slayer": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+     "The Restless Ghost": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Romeo and Juliet": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+     "Sheep Shearer": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+     "Shield of Arrav": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Ernest the Chicken": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Vampyre Slayer": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Imp Catcher": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Prince Ali Rescue": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Doric's Quest": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Black Knights' Fortress": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {
+                "quest points": 12
+            }
+        }
+    },
+    "Witch's Potion": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Knight's Sword": {
+        "f2p": true,
+        "requirements": {
+            "skills": {
+                "mining": 10
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Goblin Diplomacy": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Pirate's Treasure": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Dragon Slayer I": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {
+                "quest points": 32
+            }
+        }
+    },
+    "Rune Mysteries": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Misthalin Mystery": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Corsair Curse": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "X Marks the Spot": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+     "Below Ice Mountain": {
+        "f2p": true,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {
+                "quest points": 16
+            }
+        }
+    },
+    "Druidic Ritual": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Lost City": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 31,
+                "woodcutting": 36
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Witch's House": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+     "Merlin's Crystal": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Heroes' Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 53,
+                "fishing": 53,
+                "herblore": 25,
+                "mining": 50
+            },
+            "quests": [
+                "Shield of Arrav", "Lost City", "Merlin's Crystal", "Dragon Slayer I"
+            ],
+            "other": {
+                "quest points": 55
+            }
+        }
+    },
+    "Scorpion Catcher": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "prayer": 31
+            },
+            "quests": [
+                "Alfred Grimhand's Barcrawl"
+            ],
+            "other": {}
+        }
+    },
+    "Family Crest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "mining": 40,
+                "smithing": 40,
+                "magic": 59,
+                "crafting": 40
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Tribal Totem": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 21
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Fishing Contest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "fishing": 10
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Monk's Friend": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Temple of Ikov": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 42,
+                "ranged": 40
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Clock Tower": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Holy Grail": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "attack": 20
+            },
+            "quests": [
+                "Merlin's Crystal"
+            ],
+            "other": {}
+        }
+    },
+    "Tree Gnome Village": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Fight Arena": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Hazeel Cult": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Sheep Herder": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Plague City": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Sea Slug": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 30
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Waterfall Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Biohazard": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Plague City"
+            ],
+            "other": {}
+        }
+    },
+    "Jungle Potion": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "herblore": 3
+            },
+            "quests": [
+                "Druidic Ritual"
+            ],
+            "other": {}
+        }
+    },
+    "The Grand Tree": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 25
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Shilo Village": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 20,
+                "agility": 32
+            },
+            "quests": [
+                "Jungle Potion"
+            ],
+            "other": {}
+        }
+    },
+    "Underground Pass": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "ranged": 25
+            },
+            "quests": [
+                "Biohazard", "Plague City"
+            ],
+            "other": {}
+        }
+    },
+    "Observatory Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Tourist Trap": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "fletching": 10,
+                "smithing": 20
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Watchtower": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 14,
+                "thieving": 15,
+                "agility": 25,
+                "herblore": 14,
+                "mining": 40
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Dwarf Cannon": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Murder Mystery": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Dig Site": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 10,
+                "herblore": 10,
+                "thieving": 25
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Gertrude's Cat": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Legends' Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 50,
+                "crafting": 50,
+                "herblore": 45,
+                "magic": 56,
+                "mining": 52,
+                "prayer": 42,
+                "smithing": 50,
+                "strength": 50,
+                "thieving": 50,
+                "woodcutting": 50
+            },
+            "quests": [
+                "Family Crest", "Heroes' Quest", "Shield of Arrav", "Lost City",
+                "Merlin's Crystal", "Dragon Slayer I", "Shilo Village","Jungle Potion",
+                "Underground Pass", "Biohazard", "Plague City", "Waterfall Quest"
+            ],
+            "other": {
+                "quest points": 107
+            }
+        }
+    },
+    "Big Chompy Bird Hunting": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "fletching": 5,
+                "cooking": 30,
+                "ranged": 30
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Elemental Workshop I": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "mining": 20,
+                "smtithing": 20,
+                "crafting": 20
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Priest in Peril": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Nature Spirit": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Death Plateau": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Troll Stronghold": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 15
+            },
+            "quests": [
+                "Death Plateau"
+            ],
+            "other": {}
+        }
+    },
+    "Tai Bwo Wannai Trio": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 15,
+                "cooking": 30,
+                "fishing": 5
+            },
+            "quests": [
+                "Jungle Potion"
+            ],
+            "other": {}
+        }
+    },
+    "Regicide": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 10,
+                "agility": 56
+            },
+            "quests": [
+                "Underground Pass", "Biohazard", "Plague City"
+            ],
+            "other": {}
+        }
+    },
+    "Eadgar's Ruse": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "herblore": 31
+            },
+            "quests": [
+                "Druidic Ritual", "Troll Stronghold", "Death Plateau"
+            ],
+            "other": {}
+        }
+    }
+}
