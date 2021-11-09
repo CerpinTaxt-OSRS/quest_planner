@@ -13,31 +13,6 @@ def parse_quests_json():
         return json.load(quests_f)
 
 
-def make_quest_object(quest: dict):
-    """Creates and returns a new Quest object which can be used to store
-    information about a quest in OSRS. The `quest` arg should be a dictionary
-    where the key is the exact name of the quest as listed on the OSRS Wiki,
-    and the value should be a dictionary with the relevant quest requirement
-    information, as shown with the following example:
-
-    "Quest name": {
-        "f2p": bool,
-        "requirements": {
-            "skills": {
-                "skill name": int
-            },
-            "quests": [
-                "quest name"
-            ],
-            "other": {
-                "requirement": int
-            }
-        }
-    }
-    """
-    return Quest(quest)
-
-
 def find_recursive_skill_reqs(quest: Quest, all_quests: list, checked=set()):
     """Find the maximum level for each skill required to beat this
     Quest, taking into account each other quest this quest itself requires
