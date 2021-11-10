@@ -9,12 +9,9 @@ class Quest:
     a quest. Takes into account all requirements a normal account *must* meet
     to complete the quest. Makes no assessment of the suitability of an ironman
     account or combat levels (unless combat levels are explicitly required to
-    recieve and complete the quest), nor does it consider obtaining certain
-    quest items, for example, you need a ghostspeak amulet to do Nature Spirit,
-    but you do not have to complete The Restless Ghost to obtain the amulet.
-    This is a concious decision since some players may not wish to gain the
-    reward experience from a quest, but they can still partially complete the
-    quest to obtain necessary items required for another quest.
+    recieve and complete the quest). If partial completion is all that is
+    required, this will assume you still need all the requirements of that
+    quest anyway, even if you don't complete the quest.
     """
     def __init__(self, name, info):
         self.name = name

@@ -718,5 +718,1387 @@
             ],
             "other": {}
         }
+    },
+    "Creature of Fenkenstrain": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 20,
+                "thieving": 25
+            },
+            "quests": [
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "Roving Elves": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Regicide", "Underground Pass", "Biohazard", "Plague City", "Waterfall Quest"
+            ],
+            "other": {}
+        }
+    },
+    "Ghosts Ahoy": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 25,
+                "cooking": 20
+            },
+            "quests": [
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "One Small Favour": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 36,
+                "crafting": 25,
+                "herblore": 18,
+                "smithing": 30
+            },
+            "quests": [
+                "Rune Mysteries", "Shilo Village", "Jungle Potion", "Druidic Ritual"
+            ],
+            "other": {}
+        }
+    },
+    "Mountain Daughter": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 20
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Between a Rock...": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "defence": 30,
+                "mining": 40,
+                "smithing": 50
+            },
+            "quests": [
+                "Dwarf Cannon", "Fishing Contest"
+            ],
+            "other": {}
+        }
+    },
+    "The Feud": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 30
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Golem": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 20,
+                "thieving": 25
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Desert Treasure": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 53,
+                "magic": 50,
+                "firemaking": 50
+            },
+            "quests": [
+                "The Dig Site", "Temple of Ikov", "The Tourist Trap", "Troll Stronghold", "Death Plateau", "Priest in Peril", "Waterfall Quest"
+            ],
+            "other": {}
+        }
+    },
+    "Icthlarin's Little Helper": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Gertrude's Cat"
+            ],
+            "other": {}
+        }
+    },
+    "Tears of Guthix": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 49,
+                "crafting": 20,
+                "smithing": 20
+            },
+            "quests": [],
+            "other": {
+                "quest points": 43
+            }
+        }
+    },
+    "Zogre Flesh Eaters": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "smithing": 4,
+                "herblore": 8,
+                "ranged": 30
+            },
+            "quests": [
+                "Big Chompy Bird Hunting", "Jungle Potion"
+            ],
+            "other": {}
+        }
+    },
+    "The Lost Tribe": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 13,
+                "thieving": 13,
+                "mining": 17
+            },
+            "quests": [
+                "Goblin Diplomacy", "Rune Mysteries"
+            ],
+            "other": {}
+        }
+    },
+    "The Giant Dwarf": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 12,
+                "firemaking": 16,
+                "magic": 33,
+                "thieving": 14
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Recruitment Drive": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Black Knights' Fortress", "Druidic Ritual"
+            ],
+            "other": {}
+        }
+    },
+    "Mourning's End Part I": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "ranged": 60,
+                "thieving": 50
+            },
+            "quests": [
+                "Roving Elves", "Regicide", "Underground Pass", "Biohazard", "Plague City",
+                "Waterfall Quest", "Big Chompy Bird Hunting", "Sheep Herder"
+            ],
+            "other": {}
+        }
+    },
+    "Forgettable Tale...": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 22,
+                "farming": 17
+            },
+            "quests": [
+                "The Giant Dwarf", "Fishing Contest"
+            ],
+            "other": {}
+        }
+    },
+    "Garden of Tranquillity": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "farming": 25
+            },
+            "quests": [
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "A Tail of Two Cats": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Icthlarin's Little Helper", "Gertrude's Cat"
+            ],
+            "other": {}
+        }
+    },
+    "Wanted!": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Recruitment Drive", "Black Knights' Fortress", "Druidic Ritual", "The Lost Tribe",
+                "Rune Mysteries", "Goblin Diplomacy", "Priest in Peril", "Enter the Abyss"
+            ],
+            "other": {
+                "quest points": 32
+            }
+        }
+    },
+    "Mourning's End Part II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Mourning's End Part I", "Roving Elves", "Regicide", "Underground Pass", "Biohazard",
+                "Plague City", "Waterfall Quest", "Big Chompy Bird Hunting", "Sheep Herder"
+            ],
+            "other": {}
+        }
+    },
+    "Rum Deal": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 42,
+                "fishing": 50,
+                "farming": 40,
+                "prayer": 47,
+                "slayer": 42
+            },
+            "quests": [
+                "Zogre Flesh Eaters", "Big Chompy Bird Hunting", "Jungle Potion", "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Shadow of the Storm": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 30
+            },
+            "quests": [
+                "The Golem", "Demon Slayer"
+            ],
+            "other": {}
+        }
+    },
+    "Making History": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Ratcatchers": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Icthlarin's Little Helper", "Gertrude's Cat"
+            ],
+            "other": {}
+        }
+    },
+    "Spirits of the Elid": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 33,
+                "ranged": 37,
+                "mining": 37,
+                "thieving": 37
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Devious Minds": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "smithing": 65,
+                "runecraft": 50,
+                "fletching": 50
+            },
+            "quests": [
+                "Wanted!", "Recruitment Drive", "Black Knights' Fortress", "Druidic Ritual",
+                "The Lost Tribe", "Goblin Diplomacy", "Rune Mysteries", "Priest in Peril",
+                "Troll Stronghold", "Death Plateau", "Doric's Quest", "Enter the Abyss"
+            ],
+            "other": {}
+        }
+    },
+    "The Hand in the Sand": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 17,
+                "crafting": 49
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Enakhra's Lament": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 50,
+                "firemaking": 45,
+                "prayer": 43,
+                "magic": 39
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Cabin Fever": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 42,
+                "crafting": 45,
+                "smithing": 50,
+                "ranged": 40
+            },
+            "quests": [
+                "Pirate's Treasure", "Rum Deal", "Zogre Flesh Eaters", "Big Chompy Bird Hunting",
+                "Jungle Potion", "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Fairytale I - Growing Pains": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Lost City", "Nature Spirit", "The Restless Ghost", "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Another Cook's Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 10
+            },
+            "quests": [
+                "Cook's Assistant"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Defeating the Culinaromancer": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Desert Treasure", "The Dig Site", "Temple of Ikov", "The Tourist Trap",
+                "Troll Stronghold", "Death Plateau", "Priest in Peril", "Waterfall Quest",
+                "Horror from the Deep", "Alfred Grimhand's Barcrawl miniquest",
+                "Freeing Evil Dave", "Freeing the Goblin generals", "Freeing the Lumbridge Guide",
+                "Freeing the Mountain Dwarf", "Freeing Pirate Pete", "Freeing Sir Amik Varze",
+                "Freeing Skrach Uglogwee", "Freeing King Awowogei"
+            ],
+            "other": {
+                "quest points": 175
+            }
+        }
+    },
+    "Recipe for Disaster/Freeing the Mountain Dwarf": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant", "Fishing Contest"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing the Goblin generals": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant", "Goblin Diplomacy"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing Pirate Pete": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 31
+            },
+            "quests": [
+                "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing the Lumbridge Guide": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 40
+            },
+            "quests": [
+                "Big Chompy Bird Hunting", "Biohazard", "Plague City", "Demon Slayer",
+                "Murder Mystery", "Nature Spirit", "Priest in Peril", "The Restless Ghost",
+                "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant", "Witch's House"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing Evil Dave": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 25
+            },
+            "quests": [
+                "Gertrude's Cat", "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant",
+                "Shadow of the Storm", "Demon Slayer", "The Golem"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing King Awowogei": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 70,
+                "agility": 48
+            },
+            "quests": [
+                "Monkey Madness I", "The Grand Tree", "Tree Gnome Village",
+                "Recipe for Disaster/Another Cook's Quest", "Cook's Assistant"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster/Freeing Sir Amik Varze": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Family Crest", "Heroes' Quest", "Shield of Arrav", "Lost City",
+                "Merlin's Crystal", "Dragon Slayer I", "Recipe for Disaster/Another Cook's Quest",
+                "Cook's Assistant", "Shilo Village", "Jungle Potion", "Underground Pass",
+                "Biohazard", "Plague City", "Waterfall Quest", "Legends' Quest"
+            ],
+            "other": {
+                "quest points": 107
+            }
+        }
+    },
+    "Recipe for Disaster/Freeing Skrach Uglogwee": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 41,
+                "firemaking": 20
+            },
+            "quests": [
+                "Big Chompy Bird Hunting", "Recipe for Disaster/Another Cook's Quest",
+                "Cook's Assistant"
+            ],
+            "other": {}
+        }
+    },
+    "Recipe for Disaster": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 70,
+                "agility": 48,
+                "mining": 50,
+                "fishing": 53,
+                "thieving": 53,
+                "herblore": 25,
+                "magic": 59,
+                "smithing": 40,
+                "firemaking": 50,
+                "ranged": 40,
+                "crafting": 40,
+                "fletching": 10,
+                "woodcutting": 36
+            },
+            "quests": [
+                "Fishing Contest", "Goblin Diplomacy", "Big Chompy Bird Hunting", "Murder Mystery",
+                "Nature Spirit", "Priest in Peril", "The Restless Ghost", "Witch's House",
+                "Gertrude's Cat", "Shadow of the Storm", "Demon Slayer", "The Golem",
+                "Family Crest", "Heroes' Quest", "Shield of Arrav", "Lost City",
+                "Merlin's Crystal", "Dragon Slayer I", "Shilo Village", "Jungle Potion",
+                "Druidic Ritual", "Underground Pass", "Biohazard", "Plague City",
+                "Monkey Madness I", "The Grand Tree", "Tree Gnome Village", "Desert Treasure",
+                "The Dig Site", "The Tourist Trap", "Temple of Ikov", "Waterfall Quest",
+                "Troll Stronghold", "Death Plateau", "Horror from the Deep",
+                "Alfred Grimhand's Barcrawl", "Legends' Quest"
+            ],
+            "other": {
+                "quest points": 175
+            }
+        }
+    },
+    "In Aid of the Myreque": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 25,
+                "crafting": 25,
+                "mining": 15,
+                "magic": 7
+            },
+            "quests": [
+                "In Search of the Myreque", "Nature Spirit", "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "A Soul's Bane": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Rag and Bone Man I": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Rag and Bone Man II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "slayer": 40,
+                "defence": 20
+            },
+            "quests": [
+                "Rag and Bone Man I", "Skippy and the Mogres", "Horror from the Deep",
+                "Creature of Fenkenstrain", "Zogre Flesh Eaters", "Waterfall Quest"
+            ],
+            "other": {}
+        }
+    },
+    "Swan Song": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 66,
+                "cooking": 62,
+                "fishing": 62,
+                "smithing": 45,
+                "firemaking": 42,
+                "crafting": 40
+            },
+            "quests": [
+                "One Small Favour", "Rune Mysteries", "Shilo Village", "Jungle Potion",
+                "Druidic Ritual", "Garden of Tranquillity", "Creature of Fenkenstrain",
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {
+                "quest points": 100
+            }
+        }
+    },
+    "Royal Trouble": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 40,
+                "slayer": 40
+            },
+            "quests": [
+                "Throne of Miscellania", "Heroes' Quest", "Shield of Arrav", "Lost City",
+                "Merlin's Crystal", "Dragon Slayer I", "The Fremennik Trials"
+            ],
+            "other": {}
+        }
+    },
+    "Death to the Dorgeshuun": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 23,
+                "thieving": 23
+            },
+            "quests": [
+                "The Lost Tribe", "Goblin Diplomacy", "Rune Mysteries"
+            ],
+            "other": {}
+        }
+    },
+    "Fairytale II - Cure a Queen": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 40,
+                "farming": 49,
+                "herblore": 57
+            },
+            "quests": [
+                "Fairytale I - Growing Pains", "Lost City", "Nature Spirit", "The Restless Ghost",
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Lunar Diplomacy": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "herblore": 5,
+                "crafting": 61,
+                "defence": 40,
+                "firemaking": 49,
+                "magic": 65,
+                "mining": 60,
+                "woodcutting": 55
+            },
+            "quests": [
+                "The Fremennik Trials", "Lost City", "Rune Mysteries", "Shilo Village",
+                "Jungle Potion", "Druidic Ritual"
+            ],
+            "other": {}
+        }
+    },
+    "The Eyes of Glouphrie": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "construction": 5,
+                "magic": 46
+            },
+            "quests": [
+                "The Grand Tree"
+            ],
+            "other": {}
+        }
+    },
+    "Darkness of Hallowvale": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "construction": 5,
+                "mining": 20,
+                "thieving": 22,
+                "agility": 26,
+                "crafting": 32,
+                "magic": 33,
+                "strength": 40
+            },
+            "quests": [
+                "In Aid of the Myreque", "In Search of the Myreque", "Nature Spirit",
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "The Slug Menace": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 30,
+                "runecraft": 30,
+                "slayer": 30,
+                "thieving": 30
+            },
+            "quests": [
+                "Wanted!", "Recruitment Drive", "Black Knights' Fortress", "Druidic Ritual",
+                "The Lost Tribe", "Rune Mysteries", "Goblin Diplomacy", "Enter the Abyss",
+                "Priest in Peril", "Sea Slug"
+            ],
+            "other": {}
+        }
+    },
+    "Elemental Workshop II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 20,
+                "smithing": 30
+            },
+            "quests": [
+                "Elemental Workshop I"
+            ],
+            "other": {}
+        }
+    },
+    "My Arm's Big Adventure": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "woodcutting": 10,
+                "farming": 29
+            },
+            "quests": [
+                "Eadgar's Ruse", "Druidic Ritual", "Troll Stronghold", "Death Plateau",
+                "The Feud", "Jungle Potion"
+            ],
+            "other": {
+                "tai bwo wannai favour": 60
+            }
+        }
+    },
+    "Enlightened Journey": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 20,
+                "farming": 30,
+                "crafting": 36
+            },
+            "quests": [
+                "Eadgar's Ruse", "Druidic Ritual", "Troll Stronghold", "Death Plateau",
+                "The Feud", "Jungle Potion"
+            ],
+            "other": {
+                "quest points": 20
+            }
+        }
+    },
+    "Eagles' Peak": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "hunter": 27
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Animal Magnetism": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "slayer": 18,
+                "crafting": 19,
+                "ranged": 30,
+                "woodcutting": 35
+            },
+            "quests": [
+                "The Restless Ghost", "Ernest the Chicken", "Priest in Peril"
+            ],
+            "other": {}
+        }
+    },
+    "Contact!": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Prince Ali Rescue", "Icthlarin's Little Helper", "Gertrude's Cat"
+            ],
+            "other": {}
+        }
+    },
+    "Cold War": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "hunter": 10,
+                "agility": 30,
+                "crafting": 30,
+                "construction": 34,
+                "thieving": 15
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Fremennik Isles": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "construction": 20
+            },
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "other": {}
+        }
+    },
+    "Tower of Life": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "construction": 10
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Great Brain Robbery": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 16,
+                "construction": 30,
+                "prayer": 50
+            },
+            "quests": [
+                "Creature of Fenkenstrain", "Cabin Fever", "Pirate's Treasure", "Priest in Peril",
+                "Rum Deal", "Zogre Flesh Eaters", "Big Chompy Bird Hunting", "Jungle Potion",
+                "Recipe for Disaster/Freeing Pirate Pete"
+            ],
+            "other": {}
+        }
+    },
+    "What Lies Below": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "runecraft": 35,
+                "mining": 42
+            },
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "other": {}
+        }
+    },
+    "Olaf's Quest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 40,
+                "woodcutting": 50
+            },
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "other": {}
+        }
+    },
+    "Another Slice of H.A.M.": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "attack": 15,
+                "prayer": 25
+            },
+            "quests": [
+                "Death to the Dorgeshuun", "The Lost Tribe", "Goblin Diplomacy", "Rune Mysteries",
+                "The Giant Dwarf", "The Dig Site"
+            ],
+            "other": {}
+        }
+    },
+    "Dream Mentor": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Lunar Diplomacy", "The Fremennik Trials", "Lost City", "Rune Mysteries",
+                "Shilo Village", "Jungle Potion", "Eadgar's Ruse", "Druidic Ritual",
+                "Troll Stronghold", "Death Plateau"
+            ],
+            "other": {
+                "combat": 85
+            }
+        }
+    },
+    "Grim Tales": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "farming": 45,
+                "herblore": 52,
+                "thieving": 58,
+                "agility": 59,
+                "woodcutting": 71
+            },
+            "quests": [
+                "Witch's House"
+            ],
+            "other": {
+                "combat": 85
+            }
+        }
+    },
+    "King's Ransom": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 45,
+                "defence": 65
+            },
+            "quests": [
+                "Black Knights' Fortress", "Holy Grail", "Merlin's Crystal", "Murder Mystery",
+                "One Small Favour", "Rune Mysteries", "Druidic Ritual", "Shilo Village",
+                "Jungle Potion"
+            ],
+            "other": {}
+        }
+    },
+    "Monkey Madness II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "slayer": 69,
+                "crafting": 70,
+                "hunter": 60,
+                "agility": 55,
+                "thieving": 55,
+                "firemaking": 60
+            },
+            "quests": [
+                "Enlightened Journey", "The Eyes of Glouphrie",
+                "Recipe for Disaster/Freeing King Awowogei", "Monkey Madness I", "The Grand Tree",
+                "Tree Gnome Village", "Troll Stronghold", "Death Plateau", "Watchtower"
+            ],
+            "other": {
+                "balloon route": "Gnome Stronghold"
+            }
+        }
+    },
+    "Client of Kourend": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Bone Voyage": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "The Dig Site"
+            ],
+            "other": {
+                "kudos": 100
+            }
+        }
+    },
+    "The Queen of Thieves": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 20
+            },
+            "quests": [
+                "Client of Kourend", "X Marks the Spot"
+            ],
+            "other": {
+                "piscarilius favour": 20
+            }
+        }
+    },
+    "The Depths of Despair": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 18
+            },
+            "quests": [
+                "Client of Kourend", "X Marks the Spot"
+            ],
+            "other": {
+                "hosidius favour": 20
+            }
+        }
+    },
+    "Dragon Slayer II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 75,
+                "smithing": 70,
+                "mining": 68,
+                "crafting": 62,
+                "agility": 60,
+                "thieving": 60,
+                "construction": 50,
+                "hitpoints": 50
+            },
+            "quests": [
+                "Legends' Quest", "Family Crest", "Heroes' Quest", "Shield of Arrav", "Lost City",
+                "Merlin's Crystal", "Dragon Slayer I", "Underground Pass", "Biohazard",
+                "Plague City", "Waterfall Quest", "Dream Mentor", "Lunar Diplomacy",
+                "The Fremennik Trials", "Rune Mysteries", "Shilo Village", "Jungle Potion",
+                "Eadgar's Ruse", "Druidic Ritual", "Troll Stronghold", "Death Plateau",
+                "A Tail of Two Cats", "Icthlarin's Little Helper", "Gertrude's Cat",
+                "Animal Magnetism", "Ernest the Chicken", "Priest in Peril", "The Restless Ghost",
+                "Ghosts Ahoy", "Bone Voyage", "The Dig Site", "100 Kudos", "Client of Kourend",
+                "X Marks the Spot"
+            ],
+            "other": {
+                "quest points": 200,
+                "barbarian training": "firemaking"
+            }
+        }
+    },
+    "Tale of the Righteous": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "strength": 16,
+                "mining": 10
+            },
+            "quests": [
+                "Client of Kourend", "X Marks the Spot"
+            ],
+            "other": {
+                "shayzien favour": 20
+            }
+        }
+    },
+    "A Taste of Hope": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 48,
+                "agility": 45,
+                "attack": 40,
+                "herblore": 40,
+                "slayer": 38
+            },
+            "quests": [
+                "Darkness of Hallowvale", "In Aid of the Myreque", "In Search of the Myreque",
+                "Nature Spirit", "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "Making Friends with My Arm": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 66,
+                "mining": 72,
+                "construction": 35,
+                "agility": 68
+            },
+            "quests": [
+                "My Arm's Big Adventure", "Eadgar's Ruse", "Druidic Ritual", "Troll Stronghold",
+                "Death Plateau", "The Feud", "Jungle Potion", "Swan Song", "One Small Favour",
+                "Rune Mysteries", "Shilo Village", "Garden of Tranquillity",
+                "Creature of Fenkenstrain", "Priest in Peril", "The Restless Ghost", "Cold War",
+                "Romeo & Juliet"
+            ],
+            "other": {}
+        }
+    },
+    "The Forsaken Tower": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Client of Kourend", "X Marks the Spot"
+            ],
+            "other": {
+                "lovakengj favour": 20
+            }
+        }
+    },
+    "The Ascent of Arceuus": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "hunter": 12
+            },
+            "quests": [
+                "Client of Kourend", "X Marks the Spot"
+            ],
+            "other": {
+                "arceuus favour": 20
+            }
+        }
+    },
+    "Song of the Elves": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 70,
+                "construction": 70,
+                "farming": 70,
+                "herblore": 70,
+                "hunter": 70,
+                "mining": 70,
+                "smithing": 70,
+                "woodcutting": 70
+            },
+            "quests": [
+                "Mourning's End Part II", "Mourning's End Part I", "Big Chompy Bird Hunting",
+                "Sheep Herder", "Roving Elves", "Waterfall Quest", "Regicide", "Underground Pass",
+                "Biohazard", "Plague City"
+            ],
+            "other": {}
+        }
+    },
+    "The Fremennik Exiles": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 65,
+                "slayer": 60,
+                "smithing": 60,
+                "fishing": 60,
+                "runecraft": 55
+            },
+            "quests": [
+                "The Fremennik Isles", "The Fremennik Trials", "Lunar Diplomacy",
+                "The Fremennik Trials", "Lost City", "Rune Mysteries", "Shilo Village",
+                "Jungle Potion", "Druidic Ritual", "Mountain Daughter", "Heroes' Quest",
+                "Dragon Slayer I", "Lost City", "Merlin's Crystal", "Shield of Arrav"
+            ],
+            "other": {}
+        }
+    },
+    "Sins of the Father": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "woodcutting": 62,
+                "fletching": 60,
+                "crafting": 56,
+                "agility": 52,
+                "attack": 50,
+                "slayer": 50,
+                "magic": 49
+            },
+            "quests": [
+                "Vampyre Slayer", "A Taste of Hope", "Darkness of Hallowvale",
+                "In Aid of the Myreque", "In Search of the Myreque", "Nature Spirit",
+                "Priest in Peril", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "A Porcine of Interest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Getting Ahead": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "crafting": 30,
+                "construction": 26
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "A Night at the Theatre": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "A Taste of Hope", "Darkness of Hallowvale", "In Aid of the Myreque",
+                "In Search of the Myreque", "Nature Spirit", "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "A Kingdom Divided": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 54,
+                "thieving": 52,
+                "woodcutting": 52,
+                "herblore": 50,
+                "mining": 42,
+                "crafting": 38,
+                "magic": 35
+            },
+            "quests": [
+                "The Depths of Despair", "The Queen of Thieves", "The Ascent of Arceuus",
+                "The Forsaken Tower", "Tale of the Righteous", "Client of Kourend",
+                "X Marks the Spot", "Architectural Alliance"
+            ],
+            "other": {
+                "arceuus favour": 100,
+                "hosidius favour": 100,
+                "lovakengj favour": 100,
+                "piscarilius favour": 100,
+                "shayzien favour": 100
+            }
+        }
+    },
+    "Alfred Grimhand's Barcrawl": {
+       "f2p": false,
+       "requirements": {
+           "skills": {},
+           "quests": [],
+           "other": {}
+       }
+    },
+    "Architectural Alliance": {
+       "f2p": false,
+       "requirements": {
+            "skills": {
+               "mining": 42
+            },
+            "quests": [],
+            "other": {}
+       }
+    },
+    "Bear Your Soul": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Curse of the Empty Lord": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "thieving": 53
+            },
+            "quests": [
+                "Desert Treasure", "The Restless Ghost"
+            ],
+            "other": {}
+        }
+    },
+    "Daddy's Home": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "The Enchanted Key": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Enter the Abyss": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "other": {}
+        }
+    },
+    "Family Pest": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Family Crest"
+            ],
+            "other": {}
+        }
+    },
+    "The General's Shadow": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Curse of the Empty Lord", "Desert Treasure", "Fight Arena"
+            ],
+            "other": {}
+        }
+    },
+    "In Search of Knowledge": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Lair of Tarn Razorlor": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "slayer": 40
+            },
+            "quests": [
+                "The Haunted Mine"
+            ],
+            "other": {}
+        }
+    },
+    "The Mage Arena": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 60
+            },
+            "quests": [
+                "The Haunted Mine"
+            ],
+            "other": {}
+        }
+    },
+    "The Mage Arena II": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "magic": 75
+            },
+            "quests": [
+                "The Mage Arena"
+            ],
+            "other": {
+                "claws of guthix casts": 100,
+                "flames of zamorak casts": 100,
+                "saradomin strike casts": 100
+            }
+        }
+    },
+    "Skippy and the Mogres": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "cooking": 20
+            },
+            "quests": [],
+            "other": {}
+        }
     }
 }

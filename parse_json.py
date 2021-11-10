@@ -51,8 +51,31 @@ def find_recursive_quest_reqs(quest: Quest, all_quests: list, checked=set()):
     return required_quests_set
 
 
+def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
+    """Find the total list of other miscellaneous requirements needed to beat
+    this Quest, taking into account each other quest this quest itself requires
+    by recursively calling this function on subsequent quests, while avoiding
+    infinitely re-checking quests already considered.
+    """
+    checked.add(quest)  # Add current quest to avoid infinite recursion
+    max_other_reqs = quest.get_other_req()
+    for quest_name in quest.get_quest_req():
+        required_quest = all_quests.get(quest_name)
+        # Don't recheck an already checked quest.
+        if required_quest not in checked:
+            required_quest_other_reqs = find_recursive_other_reqs(
+                required_quest, all_quests, checked)
+            for task, val in required_quest_other_reqs.items():
+                if val > max_other_reqs.get(task, 0):
+                    max_other_reqs[task] = val
+    return max_other_reqs
+
+
 if __name__ == "__main__":
     quest_list = {
         name: Quest(name, info) for name, info in parse_quests_json().items()
     }
-    jp = quest_list["Jungle Potion"]
+    rfd = quest_list["Recipe for Disaster"]
+    print(find_recursive_quest_reqs(rfd, quest_list))
+    print(find_recursive_skill_reqs(rfd, quest_list))
+    print(find_recursive_other_reqs(rfd, quest_list))
