@@ -8,7 +8,8 @@ Executing:
 `$ python3 quest_requirements.py "One Small Favour"`
 
 Will produce:
-```========================================================
+```
+========================================================
 One Small Favour (p2p)
 
 Skill requirements:
@@ -24,7 +25,8 @@ Quest requirements:
         Druidic Ritual
 
 Other requirements:
-(none)```
+(none)
+```
 
 ## Extra
 Providing "Quest Point Cape" will find the total max requirements of all quests in the game.
