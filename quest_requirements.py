@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import argparse
 import json
 from quest import Quest
 from pprint import pprint
@@ -22,7 +23,7 @@ def get_quest_requirements(quest: Quest, all_quests: list):
             }
         }
     }
-    return q
+    return Quest(quest.name, q[quest.name])
 
 
 def quest_point_cape(quest_list):
@@ -105,10 +106,22 @@ def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
 
 
 if __name__ == "__main__":
+    # Initial data read from json file.
     quest_list = {
         name: Quest(name, info) for name, info in parse_quests_json().items()
     }
-    qpc = quest_point_cape(quest_list)    
-    qpc = get_quest_requirements(qpc, quest_list)
-    qpc = Quest(list(qpc.keys())[0], qpc[list(qpc.keys())[0]])
-    print(qpc)
+    parser = argparse.ArgumentParser(
+        description="Find requirements for quests."
+    )
+    parser.add_argument(
+        'quest name', metavar='quest', type=str, nargs='+',
+        help='the quest(s) you want the requirements for'
+    )
+    quests_to_check = vars(parser.parse_args()).get('quest name')
+    for quest in quests_to_check:
+        if quest.lower() == 'quest point cape':
+            print(get_quest_requirements(
+                quest_point_cape(quest_list), quest_list)
+            )
+        else:
+            print(get_quest_requirements(quest_list[quest], quest_list))

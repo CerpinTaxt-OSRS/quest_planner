@@ -32,25 +32,35 @@ class Quest:
                 }
             }
         })
-    
+
     def __str__(self):
         """Return a nice human-readable representation of this Quest."""
-        output = self.name
+        output = ('=' * 56) + '\n'
+        output += self.name
         output += f"{' (f2p)' if self.f2p else ' (p2p)'}" + '\n\n'
         output += "Skill requirements:\n"
-        for skill, level in self.get_skill_req().items():
-            output += f"\t{skill:<12}\t{level}\n"
+        if not self.get_skill_req().items():
+            output += "(none)\n"
+        else:
+            for skill, level in self.get_skill_req().items():
+                output += f"\t{skill:<12}\t{level}\n"
         output += "\nQuest requirements:\n"
-        for quest in self.get_quest_req():
-            output += f"\t{quest}\n"
+        if not self.get_quest_req():
+            output += "(none)\n"
+        else:
+            for quest in self.get_quest_req():
+                output += f"\t{quest}\n"
         output += "\nOther requirements:\n"
-        for task, value in self.get_other_req().items():
-            if value == 1:
-                output += f"\t{task:<24}\tCompleted\n"
-            elif 'favour' in task:
-                output += f"\t{task:<24}\t{value}%\n"
-            else:
-                output += f"\t{task:<24}\t{value}\n"
+        if not self.get_other_req():
+            output += "(none)\n"
+        else:
+            for task, value in self.get_other_req().items():
+                if value == 1:
+                    output += f"\t{task:<24}\tCompleted\n"
+                elif 'favour' in task:
+                    output += f"\t{task:<24}\t{value}%\n"
+                else:
+                    output += f"\t{task:<24}\t{value}\n"
         return output
 
     def get_skill_req(self):
