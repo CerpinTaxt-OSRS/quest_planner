@@ -545,7 +545,7 @@
         "requirements": {
             "skills": {
                 "mining": 20,
-                "smtithing": 20,
+                "smithing": 20,
                 "crafting": 20
             },
             "quests": [],
@@ -1124,9 +1124,14 @@
                 "Desert Treasure", "The Dig Site", "Temple of Ikov", "The Tourist Trap",
                 "Troll Stronghold", "Death Plateau", "Priest in Peril", "Waterfall Quest",
                 "Horror from the Deep", "Alfred Grimhand's Barcrawl miniquest",
-                "Freeing Evil Dave", "Freeing the Goblin generals", "Freeing the Lumbridge Guide",
-                "Freeing the Mountain Dwarf", "Freeing Pirate Pete", "Freeing Sir Amik Varze",
-                "Freeing Skrach Uglogwee", "Freeing King Awowogei"
+                "Recipe for Disaster/Freeing Evil Dave",
+                "Recipe for Disaster/Freeing the Goblin generals",
+                "Recipe for Disaster/Freeing the Lumbridge Guide",
+                "Recipe for Disaster/Freeing the Mountain Dwarf",
+                "Recipe for Disaster/Freeing Pirate Pete",
+                "Recipe for Disaster/Freeing Sir Amik Varze",
+                "Recipe for Disaster/Freeing Skrach Uglogwee",
+                "Recipe for Disaster/Freeing King Awowogei"
             ],
             "other": {
                 "quest points": 175
@@ -1683,7 +1688,7 @@
                 "Tree Gnome Village", "Troll Stronghold", "Death Plateau", "Watchtower"
             ],
             "other": {
-                "balloon route": "Gnome Stronghold"
+                "balloon gnome stronghold": 1
             }
         }
     },
@@ -1761,7 +1766,7 @@
             ],
             "other": {
                 "quest points": 200,
-                "barbarian training": "firemaking"
+                "barbarian firemaking": 1
             }
         }
     },

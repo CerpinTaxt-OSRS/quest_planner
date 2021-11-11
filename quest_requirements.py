@@ -3,6 +3,39 @@
 
 import json
 from quest import Quest
+from pprint import pprint
+
+
+def get_quest_requirements(quest: Quest, all_quests: list):
+    """Finds the true and completely detailed quest requirements for a given
+    quest. Calls each of the recursive search functions to populate the
+    `requirements` section, and returns the dictionary/json representation of
+    this quest.
+    """
+    q = {
+        quest.name: {
+            "f2p": quest.f2p,
+            "requirements": {
+                "skills": find_recursive_skill_reqs(quest, quest_list),
+                "quests": quest.get_quest_req(),
+                "other": find_recursive_other_reqs(quest, quest_list)
+            }
+        }
+    }
+    return q
+
+
+def quest_point_cape(quest_list):
+    """Special function to find and return the full requirements of a QPC."""
+    info = {
+        "f2p": False,
+        "requirements": {
+            "skills": {},
+            "quests": [quest for quest in quest_list.keys()],
+            "other": {}
+        }
+    }
+    return Quest("Quest Point Cape", info)
 
 
 def parse_quests_json():
@@ -24,7 +57,7 @@ def find_recursive_skill_reqs(quest: Quest, all_quests: list, checked=set()):
     for quest_name in quest.get_quest_req():
         required_quest = all_quests.get(quest_name)
         # Don't recheck an already checked quest.
-        if required_quest not in checked:
+        if required_quest and required_quest not in checked:
             required_quest_skill_reqs = find_recursive_skill_reqs(
                 required_quest, all_quests)
             for skill, level in required_quest_skill_reqs.items():
@@ -44,11 +77,11 @@ def find_recursive_quest_reqs(quest: Quest, all_quests: list, checked=set()):
     for quest_name in quest.get_quest_req():
         required_quest = all_quests.get(quest_name)
         # Don't recheck an already checked quest.
-        if required_quest not in checked:
+        if required_quest and required_quest not in checked:
             required_quest_quest_reqs = find_recursive_quest_reqs(
                 required_quest, all_quests, checked)
             required_quests_set.update(required_quest_quest_reqs)
-    return required_quests_set
+    return list(required_quests_set)
 
 
 def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
@@ -62,7 +95,7 @@ def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
     for quest_name in quest.get_quest_req():
         required_quest = all_quests.get(quest_name)
         # Don't recheck an already checked quest.
-        if required_quest not in checked:
+        if required_quest and required_quest not in checked:
             required_quest_other_reqs = find_recursive_other_reqs(
                 required_quest, all_quests, checked)
             for task, val in required_quest_other_reqs.items():
@@ -75,7 +108,7 @@ if __name__ == "__main__":
     quest_list = {
         name: Quest(name, info) for name, info in parse_quests_json().items()
     }
-    rfd = quest_list["Recipe for Disaster"]
-    print(find_recursive_quest_reqs(rfd, quest_list))
-    print(find_recursive_skill_reqs(rfd, quest_list))
-    print(find_recursive_other_reqs(rfd, quest_list))
+    qpc = quest_point_cape(quest_list)    
+    qpc = get_quest_requirements(qpc, quest_list)
+    qpc = Quest(list(qpc.keys())[0], qpc[list(qpc.keys())[0]])
+    print(qpc)
