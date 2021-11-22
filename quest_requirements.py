@@ -105,6 +105,12 @@ def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
     return max_other_reqs
 
 
+def quit_message():
+    """Print a useful message and quit."""
+    print("the following arguments are required: quest")
+    exit()
+
+
 if __name__ == "__main__":
     # Initial data read from json file.
     quest_list = {
@@ -120,8 +126,11 @@ if __name__ == "__main__":
     quests_to_check = vars(parser.parse_args()).get('quest name')
     for quest in quests_to_check:
         if quest.lower() == 'quest point cape':
-            print(get_quest_requirements(
-                quest_point_cape(quest_list), quest_list)
-            )
+            qpc = quest_point_cape(quest_list)
+            result = get_quest_requirements(qpc, quest_list)
         else:
-            print(get_quest_requirements(quest_list[quest], quest_list))
+            quest_data = quest_list.get(quest)
+            if not quest_data:
+                quit_message()
+            result = get_quest_requirements(quest_data, quest_list)
+        print(result)
