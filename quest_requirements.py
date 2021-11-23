@@ -107,7 +107,9 @@ def find_recursive_other_reqs(quest: Quest, all_quests: list, checked=set()):
 
 def quit_message():
     """Print a useful message and quit."""
-    print("the following arguments are required: quest")
+    print(
+        "the following arguments are required: quest. Did you spell it right?"
+    )
     exit()
 
 
