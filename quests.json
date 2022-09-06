@@ -1964,6 +1964,60 @@
             }
         }
     },
+    
+    "Land of the Goblins": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 38,
+                "fishing": 40,
+                "thieving": 45,
+                "herblore": 48
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Temple of the Eye": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "runecraft": 10
+            },
+            "quests": [
+                "Enter the Abyss",
+                "Rune Mysteries"
+            ],
+            "other": {}
+        }
+    },
+    "Beneath Cursed Sands": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 62,
+                "crafting": 55,
+                "firemaking": 55
+            },
+            "quests": [
+                "Gertrude's Cat",
+                "Icthlarin's Little Helper",
+                "Prince Ali Rescue",
+                "Contact!"
+            ],
+            "other": {}
+        }
+    },
+    "Sleeping Giants": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "smithing": 15
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
     "Alfred Grimhand's Barcrawl": {
        "f2p": false,
        "requirements": {
@@ -2103,6 +2157,46 @@
                 "cooking": 20
             },
             "quests": [],
+            "other": {}
+        }
+    },
+    "The Frozen Door": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 70,
+                "hitpoints": 70,
+                "ranged": 70,
+                "strength": 70
+            },
+            "quests": [
+                "Desert Treasure"
+            ],
+            "other": {}
+        }
+    },
+    "Hopespear's Will": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "prayer": 50
+            },
+            "quests": [
+                "The Restless Ghost",
+                "Desert Treasure",
+                "Fairytale I - Growing Pains",
+                "Land of the Goblins"
+            ],
+            "other": {}
+        }
+    },
+    "Into the Tombs": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Beneath Cursed Sands"
+            ],
             "other": {}
         }
     }
