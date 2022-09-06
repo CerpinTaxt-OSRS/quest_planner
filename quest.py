@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""Represents a single Quest in Old School RuneScape."""
 
 import json
 
