@@ -2199,5 +2199,135 @@
             ],
             "other": {}
         }
+    },
+    "The Garden of Death": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "farming": 20
+            },
+            "quests": [],
+            "other": {}
+        }
+    },
+    "Secrets of the North": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "agility": 69,
+                "thieving": 64,
+                "hunter": 56
+            },
+            "quests": [
+                "Making Friends with My Arm", "My Arm's Big Adventure", "Eadgar's Ruse",
+                "Druidic Ritual", "Troll Stronghold", "Death Plateau", "The Feud",
+                "Jungle Potion", "Swan Song", "One Small Favour", "Rune Mysteries",
+                "Shilo Village", "Garden of Tranquillity", "Creature of Fenkenstrain",
+                "Priest in Peril", "The Restless Ghost", "Cold War", "Romeo & Juliet",
+                "The General's Shadow", "Curse of the Empty Lord", "Desert Treasure I",
+                "Fight Arena", "Devious Minds", "Wanted!", "Recruitment Drive",
+                "Black Knights' Fortress", "Druidic Ritual", "The Lost Tribe",
+                "Goblin Diplomacy", "Rune Mysteries", "Priest in Peril", "Troll Stronghold",
+                "Death Plateau", "Doric's Quest", "Enter the Abyss", "Hazeel Cult"                
+            ],
+            "other": {}
+        }
+    },
+    "Desert Treasure II - The Fallen Empire": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "firemaking": 75,
+                "magic": 75,
+                "thieving": 70,
+                "herblore": 62,
+                "runecraft": 60,
+                "construction": 60
+            },
+            "quests": [
+                "Desert Treasure I",
+                "The Dig Site",
+                "Temple of Ikov",
+                "The Tourist Trap",
+                "Troll Stronghold",
+                "Death Plateau",
+                "Priest in Peril",
+                "Waterfall Quest",
+                "Secrets of the North",
+                "Making Friends with My Arm",
+                "My Arm's Big Adventure",
+                "Eadgar's Ruse",
+                "Druidic Ritual",
+                "Troll Stronghold",
+                "Death Plateau",
+                "The Feud",
+                "Jungle Potion",
+                "Swan Song",
+                "One Small Favour",
+                "Rune Mysteries",
+                "Shilo Village",
+                "Garden of Tranquillity",
+                "Creature of Fenkenstrain",
+                "Priest in Peril",
+                "The Restless Ghost",
+                "Cold War",
+                "Romeo & Juliet",
+                "The General's Shadow",
+                "Curse of the Empty Lord",
+                "Fight Arena",
+                "Devious Minds",
+                "Wanted!",
+                "Recruitment Drive",
+                "Black Knights' Fortress",
+                "Druidic Ritual",
+                "The Lost Tribe",
+                "Goblin Diplomacy",
+                "Rune Mysteries",
+                "Priest in Peril",
+                "Troll Stronghold",
+                "Death Plateau",
+                "Doric's Quest",
+                "Enter the Abyss",
+                "Hazeel Cult",
+                "Enakhra's Lament",
+                "Temple of the Eye",
+                "Enter the Abyss",
+                "Rune Mysteries",
+                "The Garden of Death",
+                "Below Ice Mountain",
+                "His Faithful Servants",
+                "Priest in Peril"                
+            ],
+            "other": {}
+        }
+    },
+    "The Path of Glouphrie": {
+        "f2p": false,
+        "requirements": {
+            "skills": {
+                "strength": 60,
+                "slayer": 56,
+                "thieving": 56,
+                "ranged": 47,
+                "agility": 45
+            },
+            "quests": [
+                "The Eyes of Glouphrie",
+                "The Grand Tree",
+                "Waterfall Quest",
+                "Tree Gnome Village"                
+            ],
+            "other": {}
+        }
+    },
+    "His Faithful Servants": {
+        "f2p": false,
+        "requirements": {
+            "skills": {},
+            "quests": [
+                "Priest in Peril"
+            ],
+            "other": {}
+        }
     }
 }

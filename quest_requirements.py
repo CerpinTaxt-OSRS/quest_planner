@@ -137,14 +137,22 @@ if __name__ == "__main__":
         description="Find requirements for quests."
     )
     parser.add_argument(
-        'quest name', metavar='quest', type=str, nargs='+',
+        'quest name', metavar='quest', type=str, nargs='?',
         help='the quest(s) you want the requirements for'
     )
     quests_to_check = vars(parser.parse_args()).get('quest name')
+
+    quests_to_check = []
+    while not quests_to_check or quests_to_check[0] == '':
+        quests_to_check = [input("Please enter a quest name: ")]
+
     for quest in quests_to_check:
-        if quest.lower() == 'quest point cape':
+        if quest.lower() == 'quest point cape' or quest.lower() == 'qpc':
             print(
                 get_quest_requirements(quest_point_cape(full_quest_list), full_quest_list)
             )
         else:
-            print(get_quest_requirements(full_quest_list[quest], full_quest_list))
+            try:
+                print(get_quest_requirements(full_quest_list[quest], full_quest_list))
+            except KeyError as e:
+                print(f"Could not find quest {e}")
